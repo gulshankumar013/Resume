@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+body{
+ font-family: "Montserrat",sans-serif;
+max-width: 50%;
+margin: auto;
+color: rgb(7, 6, 6);
+font-weight: bold;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    width: 150;
+    height: 150;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.title{
+    flex: 1;
+    margin-left: 2;
+}
+
+.name{
+    color: rgb(202, 35, 35);
+}
+
+.coral{
+    color: coral;
+}
+
+.textbold{
+    font-weight: bold;
+}
+
+.hrline{
+    border:1px solid coral;
+}
+
+.heading{
+    min-width: 300px;
+    font-size: 20px;
+    color: coral;
+}
+
+.margin{
+    margin-top: 20px;
+}
+
+.jobheading{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.jobduration{
+    font-weight: 300;
+    line-height: 25;
+}
+
+.jobdescription{
+    margin-top: 20;
+}
